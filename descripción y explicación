@@ -1,0 +1,8 @@
+Descripción de la función: es_cupon_valido
+Esta función SQL, llamada es_cupon_valido, determina si un código de cupón proporcionado es realmente válido y se puede usar actualmente. A continuación, se detalla su funcionalidad:
+Explicación:
+
+La función es_cupon_valido toma un parámetro: @cupon.
+@cupon es una cadena de texto que contiene el código del cupón.
+La función consulta la tabla cupones para verificar si el código del cupón es válido y si está activo.
+Si el cupón es válido, la función devuelve 1; si no, devuelve 0.
